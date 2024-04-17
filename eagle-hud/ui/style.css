@@ -1,0 +1,78 @@
+#healthBar,
+#armorBar,
+#hungerBar,
+#thirstBar {
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(32, 32, 32, 0.678);
+  border-radius: 5px;
+  overflow: hidden;
+  bottom: 5%;
+  border: 2px solid rgb(228, 228, 228);
+  box-shadow: 0 0 10px 3px rgba(228, 228, 228, 0.5);
+  transform: rotate(180deg); /* Rotate the element by 45 degrees */
+}
+
+#healthBar {
+  left: 43%;
+}
+
+#armorBar {
+  left: 47%;
+}
+
+#hungerBar {
+  left: 51%;
+}
+
+#thirstBar {
+  left: 55%;
+}
+
+#healthFill {
+  height: 100%;
+  background: rgb(255, 43, 43); /* Change colors as needed */
+  transition: width 0.3s ease; /* Smooth transition animation */
+  bottom: 5%;
+}
+
+#armorFill {
+  height: 100%;
+  background: rgb(12, 95, 219); /* Change colors as needed */
+  transition: width 0.3s ease; /* Smooth transition animation */
+  bottom: 5%;
+}
+
+#hungerFill {
+  height: 100%;
+  background: rgb(219, 147, 12); /* Change colors as needed */
+  transition: width 0.3s ease; /* Smooth transition animation */
+  bottom: 5%;
+}
+
+#thirstFill {
+  height: 100%;
+  background: rgb(63, 130, 255); /* Change colors as needed */
+  transition: width 0.3s ease; /* Smooth transition animation */
+  bottom: 5%;
+}
+
+#healthico,
+#shieldico,
+#burgerico,
+#waterico {
+  width: 30px; /* Set the width of the icon */
+  height: 30px; /* Set the height of the icon */
+  position: fixed; /* Position the icon */
+  top: 50%; /* Align the top of the icon to the middle of the viewport */
+  left: 50%; /* Align the left side of the icon to the middle of the viewport */
+  transform: translate(-50%, -50%) rotate(180deg); /* Center the icon horizontally and vertically */
+}
+
+#healthico,
+#shieldico,
+#burgerico,
+#waterico   path {
+  fill: rgb(228, 228, 228); /* Change the fill color to red */
+}
